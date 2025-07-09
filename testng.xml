@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MagpieAPITestSuite" verbose="1" >
+    <test name="MagpieAPITests" >
+        <classes>
+            <class name="com.magpie.qa.QuoteAPITests" />
+            <class name="com.magpie.qa.QuoteInAPITests" />
+        </classes>
+    </test>
+</suite>
